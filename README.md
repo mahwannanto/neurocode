@@ -1,42 +1,96 @@
 # NeuroCode
 
-NeuroCode is a cognitively inspired AI framework designed to simulate neural memory systems for intelligent code understanding.
+NeuroCode is an experimental AI-powered platform exploring neural-inspired memory systems for intelligent code understanding and contextual recall.
 
-The project explores how machines can process, organize, and recall source code similarly to human memory by using lightweight modular “code neurons” that activate contextually, decay over time, and adapt based on usage patterns.
-
-Its goal is to reduce dependence on constant full-scale LLM inference through selective memory recall and contextual activation.
+This repository contains the frontend application built with Next.js and TypeScript, providing the user interface for interacting with NeuroCode’s cognitive computing concepts, contextual memory visualization, and AI-driven workflows.
 
 ## Features
 
-- Cognitive-inspired code analysis
-- Modular “code neuron” architecture
-- Context-aware memory recall simulation
-- Semantic linking and lightweight embeddings
-- Adaptive memory decay mechanisms
-- Experimental AI framework for code understanding
+- Modern Next.js frontend architecture
+- TypeScript-based development
+- Modular UI components
+- Contextual memory visualization concepts
+- Experimental AI workflow interfaces
+- Responsive and scalable frontend structure
 
 ## Tech Stack
 
-- Python
-- AI / Cognitive Computing
-- Semantic Analysis
-- Modular Architecture Design
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- ESLint
 
-## Vision
+## Project Structure
 
-NeuroCode explores a future where AI systems can dynamically activate only the most relevant knowledge pathways instead of processing entire models repeatedly, similar to how human memory functions.
-
-## Use Cases
-
-- AI-assisted code understanding
-- Intelligent developer tools
-- Cognitive computing research
-- Context-aware software analysis
-- Experimental memory-based AI systems
+```bash
+neurocode/
+│
+├── app/
+├── actions/
+├── components/
+├── components/ui/
+├── lib/
+├── public/
+├── types/
+├── proxy.ts
+├── package.json
+└── README.md
+```
 
 ## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/mahwannanto/neurocode.git
 cd neurocode
-pip install -r requirements.txt
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+## Running the Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```bash
+http://localhost:3000
+```
+
+## Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## Vision
+
+NeuroCode explores how AI systems can simulate human-like memory behavior for software understanding by activating only relevant contextual pathways instead of repeatedly processing entire contexts.
+
+The frontend serves as an interface for experimenting with:
+
+- Context-aware AI interactions
+- Memory-driven code understanding
+- Semantic relationship visualization
+- Cognitive-inspired developer tools
+
+## Future Improvements
+
+- Interactive neural memory graphs
+- AI-assisted code navigation
+- Real-time contextual recall visualization
+- Backend AI integration
+- Advanced semantic analysis tools
+
+## License
+
+This project is experimental and intended for research, learning, and exploration of cognitive AI concepts.
